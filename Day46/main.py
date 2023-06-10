@@ -13,8 +13,8 @@ print(song_names)
 
 
 
-sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="dcedadbc47ac4a77838cb66fcfdd9789",
-                                               client_secret="491d7a3e98c84aeea964d3cce0ac9aeb",
+sp = spotipy.Spotify(auth_manager=SpotifyOAuth(client_id="{insert client_id}",
+                                               client_secret="{insert client_secret}",
                                                show_dialog=False,
                                                cache_path="token.txt",
                                                redirect_uri="http://localhost:8888/callback",
