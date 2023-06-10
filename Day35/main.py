@@ -32,8 +32,8 @@ for weather in weather_slice:
         message = client.messages \
             .create(
             body="Today it will rain, Please Bring an umbrella",
-            from_='+13614231816',
-            to='+821088274682'
+            from_='{phonenumber1}',
+            to='+{phonenumber2}'
         )
         print(message.status)
         break
