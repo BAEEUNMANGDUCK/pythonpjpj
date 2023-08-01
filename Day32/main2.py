@@ -5,8 +5,8 @@ import random
 import datetime as dt
 from email.message import EmailMessage
 
-my_email = "dmsqo122@kakao.com"
-password = "!qodmsakdejr9195"
+my_email = "exmaple@blahblah.com"
+password = "exafdalkjafd"
 now = dt.datetime.now()
 week_day = now.weekday()
 
